@@ -61,7 +61,7 @@
 }
 
 /* Keep delete button centered */
-.grid-wrapper .ag-cell:last-child {
+.grid-wrapper {
   justify-content: center;
 }
 
