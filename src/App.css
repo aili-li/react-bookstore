@@ -1,0 +1,67 @@
+/* Added some custom styles to the app to make it look better */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* App bar */
+.app-bar {
+  background-color: #e8b4b8 !important;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Title in app bar */
+.app-title {
+  color: #4a4a4a;
+}
+
+/* Ag Grid container styles */
+.grid-container {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Ag Grid styles */
+.grid-wrapper {
+  height: 600px;
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* Ensure the grid has proper borders */
+.grid-wrapper .ag-root-wrapper {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+/* Ensure the header has proper borders */
+.grid-wrapper .ag-header {
+  border-top: 1px solid #ddd;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Grid cell alignment */
+.grid-wrapper .ag-cell {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+/* Keep delete button centered */
+.grid-wrapper .ag-cell:last-child {
+  justify-content: center;
+}
+
